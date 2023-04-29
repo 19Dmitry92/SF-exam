@@ -1,0 +1,88 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    height: auto;
+    background-image: url('../../images/slide-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.auth {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 50vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 5px rgba(255, 0, 0, 0.62);
+}
+
+.inputField {
+    width: 50%;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 2px black;
+}
+
+.button {
+    height: 35px;
+    width: 160px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 30px;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    background: #ff1917;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0px 0px 10px white;
+}
+
+.button:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px red;
+    border: none;
+}
+
+.button:active {
+    transition: 0.2s;
+    transform: scale(0.9);
+}
+
+
+.info {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 40vw;
+    text-align: center;
+    font-family: "Carrois Gothic", sans-serif;
+
+}
+
+.message {
+    margin-top: -20px;
+    color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .inputField {
+        width: 70%;
+        height: 25px;
+        border: 1px solid red;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        box-shadow: 0px 0px 10px 2px black;
+    }
+}

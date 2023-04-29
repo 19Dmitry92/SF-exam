@@ -1,0 +1,75 @@
+.main {
+    min-height: 80vh;
+    width: 100vw;
+    background-image: url('../../images/slide-1.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+}
+.txt {
+    font-family: "Carrois Gothic", sans-serif;
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+.company {
+    font-family: "Carrois Gothic", Sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -1.5px;
+    color: #fff;
+}
+
+.learnmore {
+    height: 60px;
+    width: 250px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 600;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #ff1917;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px white;
+}
+
+.learnmore:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px red;
+    border: none;
+}
+
+.learnmore:active {
+    transition: 0.2s;
+    transform: scale(0.9);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 180px 0px 0px 100px;
+    width: 500px;
+}
+
+.name {
+    margin: 25px 0px;
+}
+.buttonHide {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 180px 0px 0px 0px;
+        width: 500px;
+        text-align: center;
+        margin: 10px;
+    }
+    .main {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,17 @@
+.main-content {
+  margin: 0 auto;
+  width: auto;
+  display: grid;
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+  grid-template-rows: 10vh auto 10vh;
+  grid-template-columns: 1fr;
+
+}
+
+.app-wrapper-content {
+  grid-area: main;
+  height: auto;
+}
